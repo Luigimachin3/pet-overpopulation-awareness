@@ -2,245 +2,192 @@
 <html lang="en">
 
 <head>
-  <title>Animal overpopulation</title>
+  <title>Understanding Pet Overpopulation</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <link href="style.css" rel="stylesheet" type="text/css" />
   <link href="reset.css" rel="stylesheet" type="text/css" />
   <link href="reset-webview.css" rel="stylesheet" type="text/css" />
   <link rel="icon" href="img/logo.jpg">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
-
-
 </head>
 
 <body>
+
+  <!-- NAVBAR -->
   <div class="navbar">
     <ul>
       <li><button id="theme-button">Dark Mode</button></li>
-      <li><label for="dog-names">Choose a dog name</label>
+
+      <li>
+        <label for="dog-names">Choose a dog name</label>
         <select name="dog-names" id="dog-names">
+          <option value="reeses">Reeses</option>
           <option value="rigatoni">Rigatoni</option>
           <option value="dave">Dave</option>
           <option value="pumpernickel">Pumpernickel</option>
-          <option value="reeses">Reeses</option>
         </select>
-      <li><a href="#petition">Sign our petition</a></li>
-      <li><a href="#linkToStats">Statistics</a></li>
-      <li><a href="#linkToRecomendations">Recommended</a></li>
-      <li><a href="#linkToBottomNews">News</a></li>
-
       </li>
+      <li><a id="share-stories" href="#stories">Share Pet Stories</a></li>
+      <li><a id="find-shelters" href="#shelters">Find Animal Shelters</a></li>
+      <li><a href="#petition">Sign Petition</a></li>
+      <li><a href="#Recommendations">Recommended Books</a></li>
+      <li><a href="#linkToStats">Quick Facts</a></li>
 
     </ul>
   </div>
 
+  <!-- HEADER -->
   <div class="header-container">
-    <h1 class="header-item">Dogs, Cats, and the Overpopulation Problem</h1>
-    <img id="header-img" src="img/shelter-dog.jpg" alt="dog in cage" />
-    <h1 class="header-item">Save a life by adopting a pet from the shelters.</h1>
-    <button class="header-button" type="button">Find animal shelters</button>
-    <button class="header-button" type="button">Share pet stories!</button>
+    <h1 class="header-item">Understanding Pet Overpopulation: Facts, Myths, and Solutions</h1>
+    <div class="header-img-wrapper">
+    <img id="header-img" src="img/reeses.jpg" alt="dog in cage" />
   </div>
 
-  <h2 id="linkToTheProblem">Animal overpopulation</h2>
-  <div>
-    <div id="definitionOveropulation">
-      <p>A scenario where cats and dogs breed with little or no chance of finding homes for their offspring.</p>
-      <p>Pets are often abandoned by owners who can no longer keep their animals or no longer want them.</p>
-    </div>
+    
   </div>
+
+  <!-- PROBLEM INTRO -->
+  <div id="definitionOverpopulation">
+    <p>Pet overpopulation occurs when the number of cats and dogs being born or abandoned exceeds the number of available homes. This imbalance leaves many animals without families and places immense pressure on shelters nationwide.</p>
+
+    <p>In many cases, pets are surrendered because their owners can no longer provide proper care, while others are abandoned entirely. Without intervention, these animals reproduce, continuing a cycle that shelters struggle to manage.</p>
+  </div>
+
   <div id="imagesRow">
     <img src="img/cat euthanized.jpeg" alt="black cat euthanized">
     <img src="img/overpopulation.jpg" alt="overpopulation">
-    <img src="img/abandoned.jpg" alt="abandoned dog ">
+    <img src="img/abandoned.jpg" alt="abandoned dog">
   </div>
 
-
-
-
-  </div>
+  <!-- THE PROBLEM -->
   <div id="theproblem">
-    <p>Pet overpopulation can be due to several factors, such as negligent behavior by caregivers and puppy mills.
-      Hence, being a pet owner comes with a big commitment and being aware that inappropriate puppy and cat breeding
-      practices can lead to overpopulation and the sad outcome of euthanasia.
-    </p>
+    <p>Overpopulation is driven by irresponsible breeding, accidental litters, and commercial breeding operations. When pets reproduce unchecked, shelters become overcrowded, leading to difficult outcomes including euthanasia.</p>
 
-    <p>Dogs and cats rely heavily on humans for shelter and food. Many animals end up in shelters or abandoned by their
-      caretakers either because they are old, sick, or can no longer provide for them. Animal shelters encounter a major
-      challenge as millions of pets are added every year. </p>
-  </div>
+    <p>Because animals rely entirely on humans for care, many are left vulnerable when their caretakers cannot continue providing for them. Shelters receive millions of animals annually, many of whom are older, ill, or victims of neglect.</p>
   </div>
 
-  <div>
-    <h2>How to fight animal overpopulation</h2>
-    <div id="solution">
-      <p><span style="color:salmon; font-weight: bold;">ADOPT</span> a pet from the shelter instead of buying it from a
-        breeder or pet store. Puppy mills are
-        brutal, high-volume dog breeding facilities that sell puppies for profit. Adopting a cat or dog is a much more
-        rewarding experience.
-      </p>
-      <p><span style="color:salmon; font-weight: bold;">SPAY/NEUTER</span> all pets. The process includes surgery to
-        remove the pet's reproductive ability. Spay and neuter to control unwanted offspring. Help animal shelters and
-        cooperate against animal
-        overpopulation. </p>
+  <!-- SOLUTIONS -->
+  <h2>How to fight animal overpopulation</h2>
 
-    </div>
-    <p id="educate"><span style="color:salmon; font-weight: bold;">EDUCATE</span> people who may not be aware of
-      the
-      overpopulation problem. Everyone can create awareness in their community members about pet overpopulation. They
-      may
-      be surprised that adoption is reasonable, affordable, and an excellent way to create strong bonds of friendship
-      with pets.</p>
+  <div id="solution">
+    <p><span style="color:salmon; font-weight: bold;">ADOPT</span> a pet from the shelter instead of buying from breeders or pet stores. Puppy mills prioritize profit over animal welfare and significantly contribute to overpopulation.</p>
+
+    <p><span style="color:salmon; font-weight: bold;">SPAY/NEUTER</span> all pets. Sterilization prevents unwanted litters and reduces shelter intake numbers while offering health benefits to pets.</p>
   </div>
 
-  <div>
-    <iframe class="roundedBorderVideo" width="560" height="315" src="https://www.youtube.com/embed/yQEuNDKUbqY"
-      title="YouTube video player" frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen></iframe>
+  <p id="educate"><span style="color:salmon; font-weight: bold;">EDUCATE</span>your community about the realities of pet overpopulation and the importance of adoption and responsible pet care.</p>
+
+  <!-- VIDEO -->
+  <iframe class="roundedBorderVideo" width="853" height="480" src="https://www.youtube.com/embed/k4KgGObtnGE" title="The Pet Overpopulation Crisis And How To Fix It | Beyond Sheltering | Free Documentary" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+  <!-- STATS -->
+  <h2>Facts about U.S. Animal Shelters:</h2>
+  <div class="theproblem">
+    <p id="subFacts">Each year, approximately 920,000 shelter animals are euthanized due to the shortage of homes.</p>
   </div>
 
-  <div>
-    <h2>Facts about U.S. Animal Shelters:</h2>
-    <div class="theproblem">
-      <p id="subFacts"> Each year, approximately 920,000 shelter animals are euthanized because there are more pets than
-        suitable homes for them.</p>
-
-    </div>
-  </div>
-  <!--- Data --->
-  <h3 id="linkToStats">U.S. animal-shelter-statistics (2021)</h3>
+  <h3 id="linkToStats">U.S. animal-shelter statistics (2021)</h3>
   <div class="statistics">
+    <img src="img/euthanized2.jpg" alt="dog euthanized">
     <ul>
-      <li> 4.6 million cats and dogs entered shelters</li>
-      <li> 3.8 million cats and dogs were saved</li>
-      <li> Total number of shelters in the United States: 4,064 </li>
-      <li> Percentage of U.S. shelters that are no-kill: 52%</li>
-      <li class="savedAnimals"> 83% were saved</li>
+      <li>4.6 million cats and dogs entered shelters</li>
+      <li>3.8 million animals were saved</li>
+      <li>U.S. shelters: 4,064</li>
+      <li>No-kill shelters: 52%</li>
+      <li class="savedAnimals">83% were saved</li>
     </ul>
-    <img src="img/euthanized2.jpg" alt="dog2 euthanized">
-    <img src="img/euthanized.jpg" alt="dog1 euthanized" />
+
+    
+    <img src="img/euthanized.jpg" alt="dog euthanized">
   </div>
 
-
-
+  <!-- PETITION -->
   <div id="petition">
-
     <h2>Sign Our Petition 📢</h2>
 
-
-
     <div class="petition-container">
-      <p class="signNow"> As the name suggests, shelters should be temporary transitional places to protect animals,
-        not kill them. Every change starts with each individual. By signing this petition, you are committing to helping
-        cats and dogs to stop suffering the negative outcomes of overpopulation and the euthanasia of millions of
-        animals.
-      </p>
-      <div>
-      </div>
+      <p class="signNow">Shelters should be safe transitional spaces—not a final destination due to overcrowding. By signing, you help advocate for humane solutions and better outcomes for shelter animals.</p>
 
-      <div class="signatures" id=yourSignature>
+      <div class="signatures" id="yourSignature">
         <p>🖊️ Giselle from Miami supports this.</p>
         <p>🖊️ Alex from Tampa supports this.</p>
         <p>🖊️ Sergio from Boston supports this.</p>
-
       </div>
-
     </div>
 
     <div id="signPetitionForm">
-      <!--- Sign Petition Form --->
-      <form id="sign-petition" title="sign-petition">
+      <form id="sign-petition">
         <label>Name:</label>
-        <input type="text" id="name" placeholder="First Name" size="10" ;>
+        <input type="text" id="name" placeholder="First Name" size="10">
         <label>Hometown:</label>
         <input type="text" id="hometown" size="10">
         <label>Email:</label>
         <input type="email" id="email" size="10">
       </form>
 
-      <!--- Sign Now Button --->
       <button id="signNowButton">Sign Now</button>
-
     </div>
   </div>
 
-  <div>
-    <h2 id="forFutherReading">For Further Reading</h2>
-    <h3 id="linkToRecomendations">Consider these recommendations </h3>
-    <br>
-    <div class="booksSection">
-      <div id="bookOne"> <a id="title1">
-        </a>
-        <br>
-        <br>
-        <p id="publishers"> Publisher:</p>
-        <br>
-        <p id="isbn">ISBN:</p>
-      </div>
+  <!-- BOOKS -->
+  <h2 id="forFutherReading">For Further Reading</h2>
+  <h3 id="Recommendations">Recommended resources</h3>
 
-      <div id="bookTwo"> <a id="title2">
-        </a>
-        <br>
-        <br>
-        <p id="publishersTwo"> Publisher:</p>
-        <br>
-        <p id="isbnTwo">ISBN:</p>
-      </div>
-
-      <div id="bookThree"> <a id="title3">
-        </a>
-        <br>
-        <br>
-        <p id="publishersThree"> Publisher:</p>
-        <br>
-        <p id="isbnThree">ISBN:</p>
-      </div>
+  <div class="booksSection">
+    <div id="bookOne">
+      <a id="title1"></a>
+      <p id="publishers">Publisher:</p>
+      <p id="isbn">ISBN:</p>
     </div>
 
-  </div>
-  <div>
-    <h2 id="linkToBottomNews">News</h2>
-    <div id="news">
+    <div id="bookTwo">
+      <a id="title2"></a>
+      <p id="publishersTwo">Publisher:</p>
+      <p id="isbnTwo">ISBN:</p>
+    </div>
+
+    <div id="bookThree">
+      <a id="title3"></a>
+      <p id="publishersThree">Publisher:</p>
+      <p id="isbnThree">ISBN:</p>
+    </div>
+
+    <div id="bookFour">
+      <a id="title4"></a>
+      <p id="publishersFour">Publisher:</p>
+      <p id="isbnFour">ISBN:</p>
     </div>
   </div>
 
+  <button id="back-to-top">Back to Top</button>
+  
   <script src="index.js"></script>
+
+  <footer>
+  <a href="https://people.com/pets/sarah-michelle-gellar-on-adopting-rescue-dog/" target="_blank">
+    <article>
+      <h4>Inspiring animal rescue story</h4>
+      <p>The story of Sarah Michelle Gellar and her journey to adopting her rescue dog, Franz.</p>
+    </article>
+  </a>
+
+  <a href="https://www.bestfriends.org/no-kill-2025/animal-shelter-statistics" target="_blank">
+    <article>
+      <h4>Help achieve no-kill by 2025</h4>
+      <p>No-kill is a collaboration between shelters and their communities.</p>
+    </article>
+  </a>
+
+  <a href="https://www.humanesociety.org/4000beagles" target="_blank">
+    <article>
+      <h4>Help 4,000 beagles!</h4>
+      <p>Rescue teams are working to save 4,000 beagles from a mass-breeding facility violating animal welfare laws.</p>
+    </article>
+  </a>
+</footer>
 
 </body>
 
-<footer>
-
-  <a href="https://people.com/pets/sarah-michelle-gellar-on-adopting-rescue-dog/" target='_blank'>
-    <article>
-      <h4>Inspiring animal rescue story</h4>
-      <p>Meet the story of Sarah Michelle Gellar and her unique journey that led to her adopting her rescue dog
-        Franz.</p>
-    </article>
-  </a>
-
-
-  <a href="https://www.bestfriends.org/no-kill-2025/animal-shelter-statistics" target='_blank'>
-    <article>
-      <h4>Help achieve no-kill by 2025</h4>
-      <p>No-kill is a collaboration between shelters and their community</p>
-    </article>
-  </a>
-
-
-  <a href="https://www.humanesociety.org/4000beagles" target='_blank'>
-    <article>
-      <h4>Help 4,000 beagles! </h4>
-      <p> Dedicated animal rescue team to save 4,000 beagles from a mass-breeding facility due to multiple Animal
-        Welfare Act violations</p>
-    </article>
-  </a>
-
-</footer>
 
 </html>
-
-</div>
