@@ -272,18 +272,19 @@ h4 {
 }
 
 #dog-names {
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: bold;
+    margin-left: 1rem;;
 }
 
 .navbar ul {
     height: 5rem;
     margin-top: 0;
     display: flex;
-    justify-content: end;
+    justify-content: fleend;
     align-items: center;
     flex-direction: row-reverse;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     position: fixed;
     top: 0;
     width: 100%;
@@ -291,9 +292,9 @@ h4 {
 
 .navbar ul li {
     list-style: none;
-    color: white;
+    color: rgb(255, 255, 255);
     display: flex;
-    margin: 1rem 4rem 1rem 1rem;
+    margin: 1.5rem;
 }
 
 .navbar ul li a,
@@ -301,9 +302,8 @@ h4 {
     display: block;
     font-family: Arial;
     color: white;
-    font-size: 1.5rem;
-    text-align: center;
-    padding: 5px;
+    font-size: 1.2rem;
+    padding: 0.2rem;
 }
 
 .navbar ul li a:hover {
